@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('ananya.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: white;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 30px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 100px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 41%;
+        margin: 20px auto;
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 17px;
+    }
+
+    .navbar li a {
+        color: white;
+        padding: 16px 16px;
+        margin: 2px 2px;
+        text-decoration: none;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .butt {
+        padding: 4px 4px;
+        margin: 0px 24px;
+        color: white;
+        border: 2px solid black;
+        border-radius: 4px;
+        font-size: 20px;
+        cursor: pointer;
+        background-color: transparent;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+
+    .butt:hover {
+        color: grey;
+    }
+
+    .container {
+        border: 2px solid black;
+        display: inline-block;
+        margin: 75px 93px;
+        padding: 7px 27px;
+        width: 35%;
+        border-radius: 4px;
+        text-align: center;
+
+    }
+
+    .form-group input {
+        text-align: center;
+        padding: 6px 142px;
+        margin: 6px 0px;
+        border: 2px solid black;
+        border-radius: 4px;
+    }
+
+    .container button {
+        display: block;
+        width: 83%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- for left side logo -->
+        <div class="left">
+            <img src="logo.jpg" alt="home">
+            <div>Sonakshi Fitness</div>
+        </div>
+
+        <!-- for mid items -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- for right side button -->
+        <div class="right">
+            <button class="butt">Call Us</button>
+            <button class="butt">Email Us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join the best yoga class now </h1>
+        <form action="noaction.php"></form>
+        <div class="form-group"><input type="text" name="" placeholder="Enter your name"></div>
+        <div class="form-group"><input type="text" name="" placeholder="Enter your Age"></div>
+        <div class="form-group"><input type="text" name="" placeholder="Enter your Gender"></div>
+        <div class="form-group"><input type="text" name="" placeholder="Enter your Locality"></div>
+        <button class="butt">Submit</button>
+    </div>
+</body>
+
+</html>
